@@ -1,1 +1,7 @@
-<h1>Result for {{num1}} {{op}} {{num2}} is {{result}}! </h1>
+{% extends "base.html" %}
+{% block title %}Calculator{% endblock %}
+{% block page_content %}
+<div class="page-header">
+	<h1>Result for {{num1}} {{op}} {{num2}} is {{result}}! </h1>
+</div>
+{% endblock %}
